@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="./images/header-logo.svg">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Dizenfeksiya</title>
+</head>
+<body>
+    <header>
+        <div class="site-header">
+            <div class="container">
+                <div class="header">
+                    <img src="./images/header-logo.svg" alt="Site logo">
+                    <div class="header__content">
+                        <nav class="header__nav">
+                            <a class="header__nav-text" href="#" id="navl1">Service</a>
+                            <a class="header__nav-text" href="#" id="navl2">About</a>
+                            <a class="header__nav-text" href="#" id="navl3">Faq</a>
+                            <a class="header__nav-text" href="#" id="navl4">Contact</a>
+                        </nav>
+                        <div class="selen">
+                            <select name="Ism" id="Changelang" onchange="changeLanguage(value)">
+                                <option value="Uzb">Uzbek</option>
+                                <option value="ozb">Uzbek</option>
+                                <option value="eng">English</option>
+                                <option value="rus">Russkiy</option>
+                            </select>
+                        <button class="header__content-btn">Kirish</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero">
+                    <div class="hero__content">
+                        <div>
+                            <h1 class="hero__content-title" id="h1content">Dizenfeksiya xizmati</h1>
+                            <div class="hero__item">
+                                <p class="hero__content-text" id="pcontent">Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun</p>
+                            </div>
+                        </div>
+                        <div class="hero__content-box">
+                            <button class="hero__content-btn" id="herobutton">Bog’lanish</button>
+                            <img class="hero-img" src="./images/hero-logo.svg" alt="" >
+                        </div>
+                    </div>
+                    <img data-aos="fade-left" data-aos-duration="3000" src="./images/hero-img.png" alt="" width="600" height="540">
+                </div>
+            </div>
+        </section>
+        
+        <section  data-aos="flip-right" data-aos-duration="3000"  class="about-section">
+            <div class="container">
+                <div class="about">
+                    <h3 class="about__title" id="skilh1">Avfzalliklarimiz</h3>
+                    <div class="about__content">
+                        <ul class="about__content-list">
+                            <li class="about__content-item"><img src="./images/about-img1.svg" alt="" width="70" height="56"></li>
+                            <li class="about__content-item-strong" id="skilh2">Tezda xizmat ko’rsatish</li>
+                            <li class="about__content-item" id="skillp">Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun</li>
+                        </ul>
+                        <ul class="about__content-list">
+                            <li class="about__content-item"><img src="./images/about-img2.svg" alt="" width="63" height="56"></li>
+                            <li class="about__content-item-strong" id="skilh3">Yetuk mutahasislaimiz</li>
+                            <li class="about__content-item" id="skilp1">Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun</li>
+                        </ul>
+                        <ul class="about__content-list">
+                            <li class="about__content-item"><img src="./images/about-img3.svg" alt="" width="67" height="56"></li>
+                            <li class="about__content-item-strong" id="skilh4">Sizga maqul vaqtda</li>
+                            <li class="about__content-item" id="skilp2" >Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section data-aos="fade-down-left" data-aos-duration="3000" class="antivirus-section">
+            <div class="container">
+                <div class="antivirus">
+                    <div class="antivirus__content">
+                        <div class="antivirus-item">
+                            <h2 class="antivirus-title" id="menuh1">Klapa va zararli hashorot endi yo’q deb hisoblang !!!</h2>
+                            <p class="antivirus-text" id="menup">Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun</p>
+                        </div>
+                        <button class="antivirus-btn" id="herobutton1">Bog’lanish</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section data-aos="fade-down-right" data-aos-duration="3000" class="service-section">
+            <div class="container">
+                <div class="service">
+                    <div class="service__content">
+                        <h3 class="service__content-title" id="cenh1">Service</h3>
+                        <p class="service__content-text" id="cenp">Bu darsliklari sizning yuqori daraja olishingizga yordam beradi</p>
+                    </div>
+                    <div class="service__box-content">
+                        <div class="service__box">
+                            <ul class="service__box-list">
+                                <li class="service__box-item-b" id="cenh2">Boshlang’ich tushunchalar</li>
+                                <li class="service__box-item" id="cenp1">Nazariy bilimlar</li>
+                                <li class="service__box-item-f" id="cenp2">16 dars</li>
+                            </ul>
+                            <div class="bob">
+                                <img data-aos="fade-down-right" data-aos-duration="3000" class="service__box-img" src="./images/service-svg1.svg" alt="" width="70" height="70">
+                            </div>
+                        </div>
+                        <div  data-aos="flip-right" data-aos-duration="3000"  class="service__box">
+                            <ul class="service__box-list">
+                                <li class="service__box-item-b"id="cenh3">O’rta</li>
+                                <li class="service__box-item" id="cenp3">Nazariy va Amaliy bilimlar</li>
+                                <li class="service__box-item-f" id="cenp4">23 dars</li>
+                            </ul>
+                            <div class="bob">
+                                <img data-aos="flip-right" data-aos-duration="3000"  class="service__box-img" src="./images/service-svg2.svg" alt="" width="70" height="70">
+                            </div>
+                        </div>
+                        <div class="service__box">
+                            <ul class="service__box-list">
+                                <li class="service__box-item-b" id="cenh4">Yuqori</li>
+                                <li class="service__box-item" id="cenp5">Amaliy bilimlar</li>
+                                <li class="service__box-item-f" id="cenp6">16 dars</li>
+                            </ul>
+                            <div class="bob">
+                                <img data-aos="fade-down-left" data-aos-duration="3000"  class="service__box-img" src="./images/service-svg3.svg" alt="" width="70" height="70">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section data-aos="zoom-in-right" data-aos-duration="3000" class="wrapper-section">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="wrapper__content">
+                        <img src="./images/wrapper-img.png" alt="" width="520" height="510">
+                        <div class="wrapper__content-box">
+                            <div class="wrapper__box">
+                                <img class="wrapper__box-img" src="./images/3dicons.svg" alt="" width="50" height="50">
+                                <div class="wrapper-item">
+                                    <h4 class="wrapper__box-title" id="reah2">Bizga ko'p yillardan beri  kompaniyamizga ishonch bildirganlar talaygina</h4>
+                                </div>
+                            </div>
+                            <button class="wrapper__content-button" id="herobutton2">Bog’lanish</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section data-aos="flip-left" data-aos-duration="3000"
+        class="FAQ-section">
+        <div class="container">
+            <div class="FAQ">
+                <span class="FAQ__line"></span>
+                <div class="FAQ__content">
+                    <strong class="FAQ__content-title" id="iten1" >FAQ</strong>
+                    <div class="FAQ__content-box">
+                        <div class="FAQ__content-box-wrap">
+                            <p class="FAQ__content-box-wrap-text" id="iten2" >Kursdan nima topaman</p>
+                            <img src="./images/FAQ-logo.svg" alt="" width="52" height="52">
+                        </div>
+                        <span class="FAQ__content-box-line"></span>
+                        <div class="FAQ__content-box-wrap">
+                            <p class="FAQ__content-box-wrap-text" id="iten3">Kursdan nima topaman</p>
+                            <img src="./images/FAQ-logo.svg" alt="" width="52" height="52">
+                        </div>
+                        <span class="FAQ__content-box-line"></span>
+                        <div class="FAQ__content-box-wrapper">
+                            <b class="FAQ__content-box-wrapper-title" id="iten31">Kursdan nima topaman</b>
+                            <div class="FAQ__content-box-wrap">
+                                <p class="FAQ__content-box-wrap-text" id="iten4">Bu bir nonti kaypiday kapy darsga qatnasha olmasangiz, darsdan so‘ng guruhingizga zoom zapisi tashlab beriladi</p>
+                                <img src="./images/FAQ-logo-end.svg" alt="" width="52" height="52">
+                            </div>
+                        </div>
+                        <span class="FAQ__content-box-line"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section data-aos="flip-right" data-aos-duration="3000" class="form-section">
+        <div class="container">
+            <div class="form">
+                <div class="form__content">
+                    <h4 class="form__content-title" id="endh2" >Malumotingizni qoldiring</h4>
+                    <form action="https://echo.htmlacademy.ru" method="post" id="telegramform">
+                        <label class="label">
+                            <input class="name" type="text" placeholder="Ism" required id="name">
+                            <input class="tel" type="number" placeholder="+998 |" required id="phone">
+                            <div class="label__checkbox">
+                                <input class="checkbox" type="checkbox">
+                                <p class="checkbox-text" id="iten5">Maxfiylik siyosati</p>
+                            </div>
+                            <button class="form__btn" type="submit" id="sendtotelegram">Yozilish</button>
+                        </label>
+                    </form>
+                </div>
+                <div class="form__box">
+                    <h2 class="form__title" id="endp">Bizga ko'p yillardan beri  kompaniyamizga ishonch bildirganlar talaygina</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div data-aos="fade-down-left" data-aos-duration="3000" class="site-footer">
+        <div class="container">
+            <div class="footer">
+                <img class="footer-logo" src="./images/footer-logo.svg" alt="" width="195" height="24">
+                <div class="footer__box">
+                    <div class="footer__content">
+                        <img src="./images/footer-img1.svg" alt="" width="40" height="40">
+                        <p class="footer__content-title">Toshkent shahri  Yashnabod tumani  Mo’ljal Sergeli-4 bekat</p>
+                        <img src="./images/footer-vector.svg" alt="" width="20" height="20">
+                    </div>
+                    <div class="footer__content">
+                        <img src="./images/footer-img2.png" alt="" width="40" height="40">
+                        <p class="footer__content-title">+998 94 099 3434</p>
+                        <img src="./images/footer-vector.svg" alt="" width="20" height="20">
+                    </div>
+                    <span class="footer__box-line"></span>
+                    <div class="footer__box-content">
+                        <div class="box">
+                            <b class="box-text">Facebook</b>
+                            <img src="./images/footer-vector.svg" alt="" width="20" height="20">
+                        </div>
+                        <div class="box">
+                            <b class="box-text">Instagram</b>
+                            <img src="./images/footer-vector.svg" alt="" width="20" height="20">
+                        </div>
+                        <div class="box">
+                            <b class="box-text">Telegram</b>
+                            <img src="./images/footer-vector.svg" alt="" width="20" height="20">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="./index.js">
+
+</script>
+</body>
+</html>
