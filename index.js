@@ -11,7 +11,6 @@ const x = document.querySelector(".hidden")
 // })
 
 function changeLanguage(lang){
-    console.log(changeLanguage);
     location.hash = lang;
     location.reload();
 }
